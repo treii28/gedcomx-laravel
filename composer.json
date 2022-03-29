@@ -1,0 +1,41 @@
+{
+    "name": "treii28/gedcomx-laravel",
+    "description": "Laravel based modelling of gedcomx specification objects",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Scott Webster Wood",
+            "email": "treii28@gmail.com",
+            "homepage": "http://wijg.org"
+        }
+    ],
+    "homepage": "https://github.com/treii28/gedcomx-laravel",
+    "keywords": ["Laravel", "GedcomxLaravel"],
+    "require": {
+        "illuminate/support": "~9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Treii28\\GedcomxLaravel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Treii28\\GedcomxLaravel\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Treii28\\GedcomxLaravel\\GedcomxLaravelServiceProvider"
+            ],
+            "aliases": {
+                "GedcomxLaravel": "Treii28\\GedcomxLaravel\\Facades\\GedcomxLaravel"
+            }
+        }
+    }
+}
