@@ -12,7 +12,7 @@
     "homepage": "https://github.com/treii28/gedcomx-laravel",
     "keywords": ["Laravel", "GedcomxLaravel"],
     "require": {
-        "php": "^7.0",
+        "php": "^7.0|^8.0",
         "illuminate/support": "^8"
     },
     "require-dev": {
