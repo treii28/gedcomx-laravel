@@ -96,3 +96,5 @@ Homestead.json
 /.vagrant
 .phpunit.result.cache
 
+/.idea/gedcomx-laravel.iml
+/.idea/modules.xml
